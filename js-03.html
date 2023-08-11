@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-03</title>
+</head>
+<body>
+    <h1>Task-2: JS-02</h1>
+    <!-- Part 1: Window -->
+    <!-- Get URL of current webpage -->
+    <h3>Click button "Get webpage URL" to fetch current URL</h3>
+    <div id="url"></div>
+    <button onclick="fetchURL()">Get webpage URL</button>
+    
+    <!-- Button when clicked will open a new window of size 500px * 400px -->
+    <h3>Click button "Open new window" to open a new window of 500px * 400px</h3>
+    <button onclick="openNewWindow()">Open nnw window</button>
+    
+    <hr>
+
+    <!-- Part 2: Document -->
+    <!-- Create HTML file with a <div> with id = "myDiv" -->
+        <h3>Click button "Change color" to change background color of below text</h3>
+    <div id="myDiv">
+        <p>Click the button to change the color!</p>
+    </div>
+    <button onclick="changeColor()">Change color</button>
+
+    <hr>
+    <!-- Part 3 -->
+    <h3>List Items</h3>
+    <button onclick="Add()">Add</button>
+    <button onclick="Delete()">Delete</button>
+    <ul id="myList"></ul>
+
+    <script src="./js-03.js"></script>
+</body>
+</html>
